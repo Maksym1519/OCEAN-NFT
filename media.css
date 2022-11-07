@@ -319,7 +319,7 @@
         flex-wrap: wrap;
         margin-top: 2px;
         margin-bottom: 20px;
-        max-width: 309px;
+        width: 100%;
     }
     .explore-logos img {
       display: block;
@@ -505,6 +505,11 @@
       margin-right: 5px;
     }
   }
+ @media only screen and (max-width: 320px) {
+    .explore-logos {
+      margin-left: -10px;
+    }
+  }
 /*--------------------------------------------------------------------*/
   @media only screen and (max-width: 420px) {
     
@@ -561,7 +566,7 @@
         max-width: 100%;
         margin: 0 auto;
        position: relative;
-        overflow: hidden;
+        
        }
            
       /* .top-NFT_header a {
