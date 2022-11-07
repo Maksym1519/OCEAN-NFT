@@ -15,6 +15,7 @@
     max-width: 335px;
     /*margin: 0 auto;*/
     padding: 20px 25px 20px 31px;
+    overflow: hidden;
   }
   /*._appolo:hover {
     margin-left: -670px;
