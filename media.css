@@ -506,10 +506,13 @@
       margin-right: 5px;
     }
   }
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 340px) {
     .explore-logos {
       margin-left: -10px;
     }
+   .explore-logos :last-child {
+          margin: 3px 0 0 10px;
+            }
   }
 /*--------------------------------------------------------------------*/
   @media only screen and (max-width: 420px) {
