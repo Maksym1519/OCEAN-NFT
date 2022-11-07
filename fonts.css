@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'spartan';
+    src: url(font-styles/spartan-cufonfonts/Spartan-SemiBold.woff) format('woff');
+    font-weight: 600
+  }
+@font-face {
+    font-family: 'rajdhani';
+    src: url(font-styles/rajdhani-v15-latin/rajdhani-v15-latin-regular.woff) format('woff');
+    font-weight: 400
+  }
+  
+    @font-face {
+      font-family: 'rajdhani-semibold';
+      src: url(font-styles/rajdhani-v15-latin/rajdhani.semibold.woff) format('woff');
+      font-weight: 600
+    }
+    @font-face {font-family: 'rajdhani-medium';
+    src: url(font-styles/rajdhani-v15-latin/rajdhani.medium.woff) format('woff');
+    font-weight: 500
+  }
+    @font-face {font-family: 'rajdhani-bold';
+    src: url(font-styles/rajdhani-v15-latin/Rajdhani-Bold.woff) format('woff');
+    font-weight: 700
+  }
+@font-face {
+    font-family: 'orbitron';
+    src: url(font-styles/Orbitron/Orbitron.woff) format('woff');
+    font-weight: 400
+  }
+  @font-face {
+    font-family: 'orbitron-bold';
+    src: url(font-styles/orbitron-bold/Orbitron-Bold.woff) format('woff');
+    font-weight: 700
+  }
+@font-face {
+    font-family: 'aldrich';
+    src: url(font-styles/aldrich/Aldrich-Regular.woff) format('woff');
+    font-weight: 400
+  }
+@font-face {
+    font-family: 'alethia';
+    src: url(font-styles/alethia/font/AlethiaNext-Light.woff) format('woff');
+    font-weight: 400
+  }
+  @font-face {
+    font-family: 'roboto';
+    src: url(font-styles/Roboto/Roboto.woff) format('woff');
+    font-weight: 400
+  }
+  @font-face {
+    font-family: 'roboto-regular';
+    src: url(font-styles/Roboto/Roboto-Regular.woff) format('woff');
+    font-weight: 400
+  }
+  @font-face {
+    font-family: 'roboto-medium';
+    src: url(font-styles/Roboto/Roboto-Medium.woff) format('woff');
+    font-weight: 500
+  }
+  @font-face {
+    font-family: 'inter-extrabold';
+    src: url(font-styles/Inter/Inter-ExtraBold.woff) format('woff');
+    font-weight: 800
+  }
+  @font-face {
+    font-family: 'inter-regular';
+    src: url(font-styles/Inter/Inter-Regular.woff) format('woff');
+    font-weight: 400
+  }
+  @font-face {
+    font-family: 'inter-medium';
+    src: url(font-styles/Inter/Inter-Medium.woff) format('woff');
+    font-weight: 500
+  }
+  @font-face {
+    font-family: 'museomoderno';
+    src: url(font-styles/museo-moderno/MuseoModerno/ttf/MuseoModerno.woff) format('woff');
+    font-weight: 400
+  }
+  @font-face {
+    font-family: 'lato-bold';
+    src: url(font-styles/lato/Lato-Bold.woff) format('woff');
+    font-weight: 700
+  }
