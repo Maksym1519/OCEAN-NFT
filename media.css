@@ -1062,7 +1062,7 @@
 }
 @media only screen and (max-width: 420px) {
   
-  .ratings-container {
+   .ratings-container {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -1238,13 +1238,32 @@
               content: "Explore";
               font-size: 12px;
              }
-             .ratings-sectionButton::before {
+            /* .ratings-sectionButton::before {
               content: '→';
               font-size: 26px;
               position: absolute;
               left: 90px;
-            } 
-             
+            } */
+            .ratings-sectionButton::before {
+              border-right: 1px solid ;
+              border-image-source: linear-gradient(272deg, #3C79D4 47%, #FFA6FA 99%);
+              border-image-slice: 1;
+              width: 3px;
+              height: 25px;
+              content: '';
+              position: absolute;
+              transform: rotate(67deg);
+              left: 120px;
+              top: 16px;
+              background: rgba(32, 8, 59, 0.8);
+            }
+             .ratings-arrow {
+              display: block;
+              position: absolute;
+              bottom: 9px;
+              left: 177px;
+              width: 34px;
+             }
     }
     @media only screen and (max-width: 420px) { 
       .about-NFT_container {
