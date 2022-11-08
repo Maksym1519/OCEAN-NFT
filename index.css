@@ -6,7 +6,7 @@ body, span, h3, h4 {
 }
 .wrapper {
   max-width: 1600px;
-  height: 6624px;
+  height: 6824px;
   background-color: rgba(32, 8, 59, 0.97);
   margin: 0 auto;
   
@@ -1167,6 +1167,12 @@ margin-left: -1.7px;
       }
       .raitings-span_before {
         display: none;
+      }
+      .ratings-arrow {
+        display: none;
+      }
+      .ratings-button_wrapper {
+        margin-left: 580px;
       }
      /*about-NFT-----------------------------------------------------*/
      .about-NFT_container {
