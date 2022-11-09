@@ -1,6 +1,6 @@
 let offset = 0;
+const item = document.querySelector('.top-body_item')
 const sliderBox = document.querySelector('.top-NFT_body');
-
 document.querySelector('.slider-next').addEventListener('click', function() {
   offset = offset + 330;
   sliderBox.style.left = -offset + 'px';
@@ -11,8 +11,10 @@ document.querySelector('.slider-prev').addEventListener('click', function() {
   sliderBox.style.left = -offset + 'px';
 } )
 document.querySelector('.top-NFT_body').addEventListener('click', function() {
-  sliderBox.style.overflow = 'scroll'
+  sliderBox.style.overflow = 'scroll';
+  sliderBox.style.left = '0px'
 })
+
 /*-----------------------------------------------------------------------*/
 const header = document.querySelector('._navigation-hover');
 const headerLinks = document.querySelector('.gamburger-hover');
