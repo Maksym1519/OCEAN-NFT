@@ -6,7 +6,7 @@ body, span, h3, h4 {
 }
 .wrapper {
   max-width: 1600px;
-  height: 6824px;
+  height: 6624px;
   background-color: rgba(32, 8, 59, 0.97);
   margin: 0 auto;
   
@@ -88,6 +88,9 @@ body, span, h3, h4 {
   left: 600px;
 }
 .gamburger-hover {
+  display: none;
+}
+.gamburger-close {
   display: none;
 }
 /*Explore---------------------------------------------------*/
